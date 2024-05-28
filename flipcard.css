@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.nav_main {
+    /* display: grid;
+    grid-template-columns: 1.5fr 3fr 1fr 1fr 1.5fr 1fr; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(159, 159, 159);
+}
+
+.nav_logo_span {
+    color: yellow;
+}
+
+.nav_input {
+    height: 90px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+}
+
+.nav_input::placeholder {
+    font-size: 20px;
+    padding-left : 30px;
+}
+.grid{
+    height: 150px;
+    width: 150px;
+    display:flex;
+    gap: 50%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    font-size: 15px;
+    
+}
+.a{
+    height: 80px;
+}
+.b{
+    height: 80px;
+}
+.c{
+    height: 80px;
+}
+.d{
+    height: 80px;
+}
+.e{
+    height: 80px;
+}
+.f{
+    display:flex;
+    gap: 5%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+   margin-left: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.one{
+    height: 200px;
+   
+}
+.two{
+    height: 200px;
+   
+}
+.three{
+    height: 200px;
+}
+.four{
+    height: 200px;
+}
+.five{
+    height: 200px;
+}
+.six{
+    height: 200px;
+}
+.heading
+{
+    margin-top: 50px;
+}
+.file{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.box{
+    background-color: rgb(173, 170, 170);
+    width: 400px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.seven
+{
+    height: 200px;
+}
+.eight
+{
+    height: 200px;
+}
+.nine
+{
+    height: 150px;
+}
+.ten
+{
+    height: 200px;
+}
+.next{
+    margin-top: 50px;
+}
+.around{
+    background-color: rgb(232, 232, 232);
+    width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.place
+{
+    height: 200px;
+}
+.coimbatore
+{
+    height: 200px;
+}
+.chennai
+{
+    height: 150px;
+}
+.bengalore
+{
+    height: 200px;
+}
+.computer{
+    display: flex;
+    gap: 2%;
+}
+.pull{
+    margin-top: 50px;
+}
+.up{
+    background-color: rgb(232, 232, 232);
+    width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    display:flex;
+    gap: 2%;
+    text-align: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.come
+{
+    height: 200px;
+}
+.down
+{
+    height: 200px;
+}
+.behind
+{
+    height: 150px;
+}
+.across
+{
+    height: 200px;
+}
+.last
+{
+    background-color: dimgray;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+.show{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    gap:80px;
+    margin-top: 40px;
+    height: 400px;
+    width: 500px;
+}
+.side{
+    margin-left: 100px;
+}
+
+.border {
+    border-left: 1px solid green;
+}
+@media(max-width:500px){
+    .grid{
+        height: 100px;
+        width: 100px;
+        display:flex;
+        gap: 5%;
+        margin-top: 4px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 5px;
+        text-align: center;
+    }
+        .a{
+            height: 150px;
+        }
+        .b{
+            height: 150px;
+        }
+        .c{
+            height: 150px;
+        }
+        .d{
+            height: 150px;
+        }
+        .e{
+            height: 150px;
+        }
+    
+        .f{
+            display:flex;
+            gap: 5%;
+            margin-top: 40px;
+            margin-bottom: 10px;
+           margin-left: 50px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .nav_main{
+            height: 200px;
+            width:900px;
+        }
+        .nav_logo_span {
+           font-size: small;
+        }
+    
+        .bottle{
+            margin-top: 60px;
+            height: 400px;
+            width: 900px;
+        }
+        .f{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .computer{
+            display: grid;
+            margin-top: 20px;
+
+        }
+        .show{
+            display: grid;
+            margin-top: 100px;
+            height: 900px;
+            width: 900px;
+            text-align: center;
+        }
+         .ball{
+            margin-left: 100px;
+            text-align: center;
+         }
+         .stump{
+            margin-left: 100px;
+            text-align: center;
+         }
+         .head{
+            margin-left: 100px;
+            text-align: center;
+         }
+         .rohit{
+            margin-left: 100px;
+            text-align: center;
+         }
+        
+         
+        }  
+    
+
+
+
+
+
